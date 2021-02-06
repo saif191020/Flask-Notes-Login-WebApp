@@ -2,7 +2,11 @@
 <h1 align="center">Notes</h1>
 <ul class="list-group list-group-flush" id="notes">
     {% for note in user.note %}
-    <l1 class="list-group-item">{{ note.data }}</l1>
+    <l1 class="list-group-item">{{ note.data }}
+        <button type="button" class="close" onclick="deleteNote({{ note.id }})">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </l1>
     {% endfor %}
 </ul>
 <form method="POST">
