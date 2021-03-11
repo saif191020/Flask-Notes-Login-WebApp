@@ -20,6 +20,8 @@ A Python WebApp that uses Flask framework for Login and Web Backend and SQL Data
   </tr>
 </table>
 
+> Click image to see in better resolution 
+
 
 ## Getting Started
 
